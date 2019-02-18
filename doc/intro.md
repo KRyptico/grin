@@ -6,7 +6,7 @@ MimbleWimble is a blockchain format and protocol that provides
 extremely good scalability, privacy and fungibility by relying on strong
 cryptographic primitives. It addresses gaps existing in almost all current
 blockchain implementations.
-밈블윔블은 강력한 cryptographic primitives를 채택하므로서 엄청난 확장성, 프라이버시, funigibility를 제공하는 블록체인 포맷, 프로토콜입니다.
+밈블윔블은 강력한 cryptographic primitives를 채택하므로서 엄청난 확장성, 프라이버시, 대체 가능성을 제공하는 블록체인 포맷, 프로토콜입니다.
 
 Grin is an open source software project that implements a MimbleWimble
 blockchain and fills the gaps required for a full blockchain and
@@ -18,11 +18,13 @@ The main goal and characteristics of the Grin project are:
 
 * Privacy by default. This enables complete fungibility without precluding
   the ability to selectively disclose information as needed.
-  프라이버시를 디폴트로. 
+  프라이버시를 디폴트로. 이 사안은 선택적으로 필요한 정보를 공개하는 기능을 배제 시키지 않고 완벽한 대체가능성을 가능하게 합니다.
   
 * Scales mostly with the number of users and minimally with the number of
   transactions (<100 byte `kernel`), resulting in a large space saving compared
   to other blockchains.
+  최소한의 트랜잭션과 유저 수에 맞게 조절됩니다
+  
 * Strong and proven cryptography. MimbleWimble only relies on Elliptic Curve
   Cryptography which has been tried and tested for decades.
 * Design simplicity that makes it easy to audit and maintain over time.
